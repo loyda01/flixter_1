@@ -26,7 +26,7 @@ default: &default
 
 development:
   <<: *default
-  database: flixter_1_development
+  database: flixter_1_development 
     # username: flixter_1
   # password: <%= ENV['FLIXTER_DATABASE_PASSWORD'] %>
 
